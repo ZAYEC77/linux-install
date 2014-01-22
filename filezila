@@ -1,0 +1,6 @@
+#!/bin/bash
+#links
+sudo add-apt-repository ppa:n-muench/programs-ppa
+#end
+sudo apt-get update
+sudo apt-get install filezilla

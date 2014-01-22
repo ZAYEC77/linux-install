@@ -1,0 +1,16 @@
+#!/bin/bash
+#sudo apt-get install openjdk-7-jdk
+sudo wget -r http://download-ln.jetbrains.com/webide/PhpStorm-7.0.tar.gz
+cd download-ln.jetbrains.com/webide
+sudo tar xzf PhpStorm-7.0.tar.gz
+sudo mkdir phpstorm
+cd PhpStorm*
+sudo mv -f ./* ../phpstorm
+cd ..
+sudo mkdir /etc/phpstorm/
+sudo mv -f ./phpstorm/ /etc/
+cd ../..
+sudo rm -rf download-ln.jetbrains.com
+sudo chmod +x /etc/phpstorm/bin/phpstorm.sh
+sudo bash /etc/phpstorm/bin/phpstorm.sh &
+sudo ln -s /etc/phpstorm/bin/phpstorm.sh /bin/phpstorm

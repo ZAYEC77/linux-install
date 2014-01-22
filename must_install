@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo apt-get  update
+sudo apt-get upgrade
+sudo bash skype
+sudo bash git
+sudo bash sublime-text
+sudo apt-get install chromium-browser
+sudo bash phpstorm

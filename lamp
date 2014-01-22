@@ -1,0 +1,9 @@
+#!/bin/bash
+sudo apt-get install mysql-server mysql-client
+sudo apt-get install apache2
+sudo apt-get install php5 libapache2-mod-php5 php5-mysql
+sudo service apache2 restart
+sudo apt-get install phpmyadmin
+sudo touch /var/www/index.php
+sudo echo "<?php phpinfo(); ?>" > /var/www/index.php
+sudo rm -f /var/www/index.html
