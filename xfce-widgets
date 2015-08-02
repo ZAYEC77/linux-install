@@ -1,3 +1,4 @@
 apt://xfce4-clipman-plugin
 sudo apt-get install xfce4-mixer
 sudo apt-get install xfce4-notes-plugin
+sudo apt-get install xfce4-goodies
