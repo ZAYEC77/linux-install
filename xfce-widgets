@@ -1,1 +1,2 @@
 apt://xfce4-clipman-plugin
+sudo apt-get install xfce4-mixer
